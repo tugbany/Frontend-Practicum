@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <style>
+      body {
+        margin-top: 5%;
+      }
+      a {
+        color: black;
+      }
+      .navigation {
+        margin-right: 20px;
+        /* yan yana sıralamak için */
+        display: inline-flex;
+      }
+      img {
+        width: 240px;
+        height: 240px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 style="text-align: center; color: burlywood">Müzik Dükkanım</h3>
+    <ul style="text-align: center; list-style: none">
+      <li class="navigation">
+        <a href="index.html">Anasayfa</a>
+      </li>
+      <li class="navigation">
+        <a href="product.html">Ürünler</a>
+      </li>
+      <li class="navigation">
+        <a href="about.html">Hakkımızda</a>
+      </li>
+    </ul>
+    <h3 style="text-align: center; color: burlywood">Ürünlerimiz</h3>
+
+    <!-- ürünler bootstrap grid yapısında listelendi. -->
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <img
+            src="https://cdn.cimri.io/image/240x240/yamaha-c30m-klasik-gitar_59248481.jpg"
+            alt="gitar"
+          />
+          <h4>YAMAHA GİTAR</h4>
+          <h6>200TL</h6>
+        </div>
+        <div class="col">
+          <img
+            src="https://www.nuansmuzik.com/upload/images/keman-hocasi-secimi.jpg"
+            alt="keman"
+          />
+          <h4>ALMİRA KEMAN</h4>
+          <h5>1200TL</h5>
+        </div>
+        <div class="col">
+          <img
+            src="https://www.muzikogretmenleriyiz.biz/wp-content/uploads/2018/12/bateri1.jpg"
+            alt="bateri"
+          />
+          <h4>SONOR BATERİ</h4>
+          <h5>300TL</h5>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">
+            <img src="https://eniyi.blog/wp-content/uploads/2022/03/steinway-sons-piyano.jpeg" alt="piyano">
+            <h4>Steinway & Sons Piyano</h4>
+            <h5>3000TL</h5>
+        </div>
+        <div class="col">
+            <img src="https://lafamuzik.com/5939-large_default/cort-g100-opb-elektro-gitar.jpg" alt="elektrogitar">
+            <h4>Elektro Gitar</h4>
+            <h5>3500TL</h5>
+        </div>
+        <div class="col">
+            <img src="https://media.mydukkan.com/image/39782/Mapex-MA486SKW-Mars-Davul-Shell-Set.jpg" alt="mars davul">
+            <h4>Mars Davul </h4>
+            <h5>11000TL</h5>
+        </div>
+      </div>
+    
+    </div>
+  </body>
+</html>

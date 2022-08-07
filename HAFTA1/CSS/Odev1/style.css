@@ -1,0 +1,11 @@
+.navi{
+    margin-right: 20px;   
+    /* yan yana sıralamak için */
+    display:inline-flex;
+}
+body{
+    margin-top: 5%;
+}
+.tac{
+    text-align: center;
+}
