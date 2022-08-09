@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Google</title>
+    <style>
+      .right-nav {
+        float: right;
+      }
+      .right-nav-list {
+        display: flex;
+      }
+      .right-nav-list li {
+        padding-left: 32px;
+        list-style: none;
+        line-height: 24px;
+        font-size: 13px / 27px;
+      }
+      .img {
+        padding-left: 15%;
+        text-align: center;
+        margin: 100px;
+      }
+
+      .btn2 {
+        margin: 4px;
+        margin-top: 40px;
+        border-radius: 5px;
+        border: none;
+        height: 40px;
+        width: 216px;
+        color: #5F6368;
+      }
+      .btn1 {
+        margin: 4px;
+        margin-top: 40px;
+        border-radius: 5px;
+        border: none;
+        height: 40px;
+        width: 123px;
+        color: #5F6368;
+      }
+
+      .search-input {
+        height: 44px;
+        border-radius: 40px;
+        border: 1px solid black;
+      }
+      .mic {
+        position: relative;
+        left: 490px;
+        
+        width: 24px;
+        height: 24px;
+      }
+      .search-icon{
+          position: relative;
+          left: 40px;
+          
+      }
+ 
+      .fixed-bottom{
+          background-color: #f2f2f2;
+          height: 40px;
+          padding-top: 12px;
+      }
+    
+    </style>
+  </head>
+  <body>
+      <!-- right navbar -->
+    <div class="right-nav">
+      <ul class="right-nav-list">
+        <li>Gmail</li>
+        <li>İmages</li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            class="bi bi-grid-3x3-gap-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"
+            />
+          </svg>
+        </li>
+        <li>
+          <img
+            style="width: 32px; height: 32px; border-radius: 50%"
+            src="images/image0.jpeg"
+            alt="photo"
+          />
+        </li>
+      </ul>
+    </div>
+<!-- Google logo, input ve buttonlar <center></center> tagleri ile ortalandı -->
+    <center class="google-logo">
+      <div>
+        <img
+          class="img"
+          src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev2/google_homepage/assets/logo.png"
+          alt="google logo"
+        />
+      </div>
+      <div>
+          <!-- mikrofon icon -->
+        <img class="mic" src="https://web.archive.org/web/20191130234609im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="mic">
+        <!-- search icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search search-icon" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>
+        <input class="search-input" style="width: 480px" type="text" /> <br />
+        <button class="btn1">Google Search</button>
+        <button class="btn2">I'm Feeling Lucky</button>
+      </div>
+    </center>
+    <!-- footer start -->
+     
+    <footer  class="fixed-bottom"> <!-- fixed-bottom sayfanın en altına sabitleme  -->      
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-6  mr-auto">  <!-- margin-right bosluk  -->  
+                    <div class="row">
+                        <div class="col">Advertising</div>
+                        <div class="col">Business</div>
+                        <div class="col">How Search Works</div>
+                    </div>
+                </div>
+                <div class="col-3 ml-auto">  <!-- margin-leftt bosluk  -->
+                    <div class="row ">
+                        <div class="col">Privacy</div>
+                        <div class="col">Terms</div>
+                        <div class="col">Settings</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
