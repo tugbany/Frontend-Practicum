@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+      body {
+        background-color:#E9ECEF;
+      }
+      p {
+       font-size: 17px;
+        text-align: center;
+      }
+      .tac {
+        text-align: center;
+      }
+      .navi {
+        margin-right: 20px;
+        margin-top: 10px;
+        /* yan yana sıralamak için */
+        display: inline-flex;
+    
+      }
+      .navi a{
+          color:orange;
+          font-weight: bold;
+          font-size: 19px;
+          text-decoration: none;
+      }
+      img {
+        width: 240px;
+        height: 240px;
+        margin-top: 50px;
+        border-radius: 10px;
+      }
+       h5{
+          font-size: 13px;
+          text-align: center;
+        }
+      h4{
+          margin-top: 10px;
+        text-align: center;
+          font-size: 15px;
+      }
+     .button{
+         height: 40px;
+         width: 100px;
+         border: 1px solid orange;
+         border-radius: 4px;
+         color: white;
+         font-size: 15px;
+         background-color: orange;
+
+     }
+    </style>
+  </head>
+  <body>
+    <!-- jumbotron -->
+    <div style="background-color:#E9ECEF;" class="jumbotron">
+        <h2 style="text-align: center; font-size: 45px;">Merhaba!</h2>      
+        <p>
+            Müzik Dükkanıma hoş geldiniz! Burada çeşitli müzik aletlerini bulabilir,
+            uygun fiyata sahip olabilirsiniz. Lütfen
+            <a href="product.html">Ürünler</a> sayfasını ziyaret ediniz.
+          </p>
+      </div>
+   <!-- navigation bar start -->
+    <ul style="text-align: center; list-style: none">
+      <li class="navi">
+        <a href="index.html"> Müzik Dükkanım</a>
+      </li>
+      <li class="navi">
+        <a href="index.html"> Anasayfa</a>
+      </li>
+      <li class="navi">
+        <a href="product.html">Ürünler</a>
+      </li>
+      <li class="navi">
+        <a href="about.html">Hakkımızda</a>
+      </li>
+    </ul>
+   <!-- navigation bar end -->
+
+   <!-- product introduction -->
+    <h4 class="tac" style="color:#337ab7; margin-top: 50px; font-size: 20px;">Müzik Aletlerimiz</h4>
+    <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <img
+              src="https://cdn.cimri.io/image/240x240/yamaha-c30m-klasik-gitar_59248481.jpg"
+              alt="gitar"
+            />
+            <h4> GİTAR</h4>
+           
+          </div>
+          <div class="col">
+            <img
+              src="https://www.nuansmuzik.com/upload/images/keman-hocasi-secimi.jpg"
+              alt="keman"
+            />
+            <h4> KEMAN</h4>
+          
+          </div>
+          <div class="col">
+            <img
+              src="https://www.muzikogretmenleriyiz.biz/wp-content/uploads/2018/12/bateri1.jpg"
+              alt="bateri"
+            />
+            <h4> BATERİ</h4>
+           
+          </div>
+          <div class="col">
+            <img src="https://eniyi.blog/wp-content/uploads/2022/03/steinway-sons-piyano.jpeg" alt="piyano">
+            <h4> PİYANO</h4>
+      
+        </div>
+        </div>
+       
+      
+      </div>
+     <center>
+        <button class="button">
+          <a href="about.html">Hakkımızda</a>
+        </button>
+     </center>
+  </body>
+</html>

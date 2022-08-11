@@ -1,0 +1,26 @@
+h4{
+    margin-top: 10px;
+  text-align: center;
+    font-size: 15px;
+    
+}
+/* navigation bar  */
+.navi {
+    margin-right: 20px;
+    margin-top: 70px;
+    /* yan yana sıralamak için */
+    display: inline-flex;
+
+  }
+  .navi a{
+    color:orange;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+    margin-bottom: 40%;
+}
+.card{
+    margin-bottom: 15px;
+    border-radius: 8px;
+   
+}
